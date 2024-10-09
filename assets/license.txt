@@ -1,0 +1,8 @@
+Model Information:
+* title:	Halo Infinite: MJOLNIR Mark VII helmet
+* source:	https://sketchfab.com/3d-models/halo-infinite-mjolnir-mark-vii-helmet-f016dd6f8a2142c5b0ddd466ee016c41
+* author:	Pablo Bellemans (https://sketchfab.com/Pablo.Bellemans)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
