@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AR.js + A-Frame: Marcador Personalizado</title>
+  <title>Helmet</title>
 
   <!-- Importar A-Frame -->
   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 
-  <!-- Importar AR.js para A-Frame -->
+  <!-- Importar AR.js-->
   <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/master/aframe/build/aframe-ar.min.js"></script>
 </head>
 <body style="margin: 0; overflow: hidden;">
@@ -16,13 +16,13 @@
   <!-- Escena A-Frame con AR.js -->
   <a-scene embedded arjs>
 
-    <!-- Cargar activos -->
+    <!-- Cargar assets -->
     <a-assets>
-      <!-- Definir el modelo 3D -->
+      <!-- Incluir el modelo 3D -->
       <a-asset-item id="my-model" src="assets/scene.gltf"></a-asset-item>
     </a-assets>
 
-    <!-- Marcador personalizado AR.js (cambiar preset="hiro" por type="pattern") -->
+    <!-- Marcador personalizado AR.js  -->
     <a-marker-camera type="pattern" url="assets/pattern-marker.patt">
       
       <!-- Incluir el modelo 3D -->
@@ -30,7 +30,7 @@
 
     </a-marker-camera>
 
-    <!-- Cámara AR.js para seguir el marcador -->
+    <!--  seguir el marcador -->
     <a-entity camera></a-entity>
 
   </a-scene>
