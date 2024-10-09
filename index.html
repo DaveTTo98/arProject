@@ -25,12 +25,15 @@
     </a-assets>
 
     <!-- Marcador personalizado AR.js (cambiar preset="hiro" por type="pattern") -->
-    <a-marker type="pattern" url="assets/pattern-marker.patt">
+    <a-marker-camera type="pattern" url="assets/pattern-marker.patt">
 
       <!-- Incluir el modelo 3D -->
-      <a-entity gltf-model="#my-model" position="0 0 0" scale="0.2 0.2 0.2" rotation="0 0 0"></a-entity>
+      <a-assets>
+        <a-asset-item id="tree" src="assets/scene.gltf"></a-asset-item>
+      </a-assets>
+      <a-entity gltf-model="##tree"></a-entity>
 
-    </a-marker>
+    </a-marker-camera>
 
     <!-- Cámara AR.js para seguir el marcador -->
     <a-entity camera></a-entity>
