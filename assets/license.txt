@@ -1,7 +1,7 @@
 Model Information:
-* title:	Halo Infinite: MJOLNIR Mark VII helmet
-* source:	https://sketchfab.com/3d-models/halo-infinite-mjolnir-mark-vii-helmet-f016dd6f8a2142c5b0ddd466ee016c41
-* author:	Pablo Bellemans (https://sketchfab.com/Pablo.Bellemans)
+* title:	Mobile Home
+* source:	https://sketchfab.com/3d-models/mobile-home-5240b1dbc29c4ea28be7f91b3638951a
+* author:	Conrad Justin (https://sketchfab.com/ConradJustin)
 
 Model License:
 * license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
